@@ -4,10 +4,11 @@
 body {
     font-family: "Outfit", sans-serif;
     background-color: hsl(30, 54%, 90%);
-    min-width: 375px;
-    max-width: 1440px;
     font-size: 16;
     padding: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li {
@@ -27,7 +28,8 @@ main {
     background-color: hsl(0, 0%, 100%);
     padding: 3rem 3rem;
     border-radius: 15px;
-    min-width: 50%;
+    min-width: 400px;
+    max-width: 700px;
 }
 .young {
     font-family: "Young Serif", serif;
@@ -68,3 +70,24 @@ td {
     padding: 0.5rem;
     border-bottom: 0.5px solid hsl(30, 18%, 87%);
 }
+
+.footer {
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: hsl(332, 51%, 32%);
+}
+
+.footer a:hover, .footer a:focus {
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(332, 51%, 32%);
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
