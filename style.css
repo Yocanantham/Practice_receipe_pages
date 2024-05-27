@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    min-width: 375px;
+    max-width: 1440px;
+    font-size: 16;
+    padding: 9rem;
+}
+
+li {
+    padding: 0.5rem 1rem;
+}
+hr {
+    border: 0.5px solid hsl(30, 18%, 87%);
+}
+.image {
+    width: 100%;
+}
+.image img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+main {
+    background-color: hsl(0, 0%, 100%);
+    padding: 3rem 3rem;
+    border-radius: 15px;
+    min-width: 50%;
+}
+.young {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+/* Sizes */
+
+.smaller_bold {
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+}
+
+.extra_bold {
+    font-weight: 700;
+}
+
+h3,
+.preparation ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation {
+    padding: 1rem;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+
+.red,
+.list li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+table {
+    width: 100%;
+}
+td {
+    padding: 0.5rem;
+    border-bottom: 0.5px solid hsl(30, 18%, 87%);
+}
