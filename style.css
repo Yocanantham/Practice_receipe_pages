@@ -87,7 +87,8 @@ td {
 .footer a:hover, .footer a:focus {
     background-color: hsl(330, 100%, 98%);
     color: hsl(332, 51%, 32%);
-    padding: 0.5rem;
+    padding: 0.35rem;
     font-weight: 600;
+    border-radius: 5px;;
 }
 
