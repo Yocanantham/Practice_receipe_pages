@@ -71,7 +71,7 @@ td {
     border-bottom: 0.5px solid hsl(30, 18%, 87%);
 }
 
-.footer {
+.header {
     position: absolute;
     top: 0px;
     width: 100vw;
@@ -80,12 +80,12 @@ td {
     margin: 0.5rem;
 }
 
-.footer a {
+.header a {
     text-decoration: none;
     color: hsl(332, 51%, 32%);
 }
 
-.footer a:hover, .footer a:focus {
+.header a:hover, .header a:focus {
     background-color: hsl(330, 100%, 98%);
     color: hsl(332, 51%, 32%);
     padding: 0.35rem;
